@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .transparent-box{
+            width: 200px;
+            height: 100px;
+            background-color: aqua;
+            opacity: 1;
+
+        } */
+        .fade-container{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            opacity: 0.1;
+        }
+
+        .fade-content{
+            width: 100%;
+            height: 100%;
+
+            /* opacity controls the transparency of the elements */
+            opacity: 0.1;
+            /* transition: opacity 0.5s ease-in-out; */
+        }
+
+        .fade-container:hover,
+        .fade-content{
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <!-- <div class="transparent-box">This is a semi-transparent box</div> -->
+    <div class="fade-container">
+        <div class="fade-content">
+            hover over me to see the fade-in effect
+        </div>
+    </div>
+</body>
+</html>

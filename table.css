@@ -1,0 +1,21 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th,td{
+    border:1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+th{
+    background-color: chocolate;
+    font-weight: bold;
+}
+tr:hover {
+    background-color: darkgrey;
+}
+
+caption{
+    margin-bottom: 10px;
+}

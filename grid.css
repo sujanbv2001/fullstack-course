@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container{
+    width: 80%;
+    max-width: 1020px;
+}
+
+header{
+    background-color: gray;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 20px;
+}
+
+main{
+    padding: 20px;
+}
+
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+}
+
+.product-card{
+    background-color: darkcyan;
+    color: crimson;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+footer{
+    background-color: gray;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            padding: 8px;
+            margin-bottom: 5px;
+        }
+        input {
+            padding: 5px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Contact us</h2>
+    <form action="/contact">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" placeholder="abcd" required><br>
+        <label for="email">email:</label><br>
+        <input type="email" id="email" placeholder="example@gmail.com" required><br>
+        <label for="Subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject" required><br>
+
+        <label for="message">message</label><br>
+        <textarea name="message" id="messages" cols="30" rows="10"></textarea><br>
+
+        <button>Submit</button>
+
+    </form>
+    <form>
+        <label for="username">userename</label><br>
+        <input type="text" id="username" name="user_name" placeholder="Enter Username"/><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required placeholder="enter email"/><br><br>
+        <label for="password">password</label><br>
+        <input type="password" id="password" required placeholder="enter password"/><br><br>
+        <label for="confirm password">confirm password</label><br>
+        <input type="confirm password" id="password" required placeholder="password"/> <br>
+
+        <button typr="Submit">Register</button><br><br>
+
+
+        <label for="dropdown">Choose car:</label>
+        <select name="cars" id="dropdown">
+            <option value="BMW">BMW</option>
+            <option value="AUDI" selected>AUDI</option>
+            <option value="MERCEDES">MERCEDES</option>
+        </select><br><br>
+
+        <label for="fruits">Choose a fruit</label>
+        <select name="fruit" id="fruits">
+
+            <option value="apple">Apples</option>
+            <option value="orange">Orange</option>
+            <option value="banana">Banana</option>
+            <option value="mango">Mango</option>
+        </select><br><br>
+
+
+
+        <label for="fruits-veg">Choose a fruit or vegetable</label>
+
+        <select name="fruits-veggies" id="fruits-veg">
+            <optgroup label="Fruits">
+                <option value="apple">Apple</option>
+                <option value="mango">mango</option>
+            </optgroup>
+            <optgroup label="Vegetables">
+                <option value="carrot">carrot</option>
+                <option value="Beans">beans</option>
+            </optgroup>
+        </select><br><br><br><br><br><br>
+
+
+        <input type="checkbox" id="subscribe" name="subscribe" checked>
+        <label for="subscribe">male</label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">female</label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">subscribe</label><br>
+
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">female</label><br>
+
+        <label for="fileInput">Select a file:</label>
+        <input type="file" id="Fileinput" name="uploadfile"><br><br>
+
+        <label for="Website">website URL</label>
+        <input type="url" id="website" placeholder="enter website url"><br>
+
+
+        <label for="Quantity">quantity</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10" step="2"><br>
+
+        <label for="birthday">Birth_date</label>
+        <input type="date" id="Birthday" name="birthday"><br>
+
+        <label for="color">Select color</label>
+        <input type="color" id="color" name="selected color"><br>
+
+
+        <label for="search">Search</label>
+        <input type="search" id="search" name="searched item" placeholder="search"><br>
+
+
+        <label for="phome">phone number</label>
+        <input type="tel" id="phone" name="phone_no" placeholder="enter phone number"><br>
+
+
+        <label for="volume">volume</label>
+        <input type="range" id="volume" name="volume" min="0" max="100" step="1"><br>
+
+
+        <label for="">Comments</label><br>
+        <textarea name="comments" id="comments" cols="50" rows="4" placeholder="Enter your comments"></textarea><br>
+
+        <button typr="Submit">Submit</button>
+    </form>
+</body>
+</html>

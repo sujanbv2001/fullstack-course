@@ -1,0 +1,30 @@
+h1{
+    color: red;
+    text-align: center;
+}
+p{
+    color: darkred;
+    font-size: 20px;
+    font-style: italic;
+}
+
+p{
+    color: red;
+    font-size: 20px;
+}
+h2{
+    color: green;
+}
+
+ul{
+    list-style: lower-roman;
+    line-height: 1.5;
+}
+
+li{
+    color: chocolate;
+}
+form{
+    width: 300px;
+    line-height: 2;
+}

@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
+
+body{
+    font-family: "Rubik Glitch Pop", Arial, Helvetica, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    text-decoration: solid;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.5;
+    text-decoration: underline;
+    text-decoration: solid;
+}
+
+em{
+    font-style: italic ;
+}
+
+strong{
+    font-weight: normal;
+    color: blue;
+}
+.highlight{
+    background-color: crimson;
+}

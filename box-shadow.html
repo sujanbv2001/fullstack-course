@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* div{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+        }
+        .box{
+            box-shadow: 50px 50px 50px cadetblue;
+        } */
+
+        body{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: dimgrey;
+        }
+        .card-container{
+            display: flex;
+            justify-content: space-around;
+            /* align-items: center; */
+            width: 80%;
+            max-width: 800px;
+        }
+        
+        .card{
+            width: 200px;
+            height: 200px;
+            background-color: azure;
+            border-radius: 20px;
+            box-shadow: 5px 4px 10px red;
+            transition: transform 0.3s;
+        }
+
+        .card:hover{
+            transform: scale(1.05);
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- <div class="box"></div> -->
+    <div class="card-container">
+        <div class="card">
+            <h2>card 1</h2>
+        <p>This is a card with subtle hover effect</p>
+    </div>
+
+        <div class="card">
+            <h2>card 2</h2>
+            <p>Another card withn rounded corners and a box shadow</p>
+
+        </div>
+        <div class="card">
+            <h2>card 3</h2>
+            <p>each card has a maximum width and transition effect on hover</p>
+        </div>
+   </div>
+</body>
+</html>
